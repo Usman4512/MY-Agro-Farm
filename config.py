@@ -22,13 +22,13 @@ class Config:
     MAIL_PORT           = int(os.environ.get('MAIL_PORT', 587))
     MAIL_USE_TLS        = os.environ.get('MAIL_USE_TLS', 'True').lower() == 'true'
     MAIL_DEBUG          = os.environ.get('MAIL_DEBUG', 'False').lower() == 'true'
-    MAIL_USERNAME       = os.environ.get('MAIL_USERNAME', '')
-    MAIL_PASSWORD       = os.environ.get('MAIL_PASSWORD', '')
-    MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER', 'Agro System <noreply@agrosystem.com>')
+    MAIL_USERNAME       = os.environ.get('MAIL_USERNAME', 'mu4512222@gmail.com')
+    MAIL_PASSWORD       = os.environ.get('MAIL_PASSWORD', 'cmpixiqappdlmlpp')
+    MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER', 'Agro System <mu4512222@gmail.com>')
 
-    ADMIN_EMAIL = os.environ.get('ADMIN_EMAIL', 'admin@agrosystem.com')
+    ADMIN_EMAIL = os.environ.get('ADMIN_EMAIL', 'mu4512222@gmail.com')
 
     # Payment — YOUR JazzCash/Easypaisa numbers
-    JAZZCASH_NUMBER  = os.environ.get('JAZZCASH_NUMBER', '03XX-XXXXXXX')
-    EASYPAISA_NUMBER = os.environ.get('EASYPAISA_NUMBER', '03XX-XXXXXXX')
-    OWNER_NAME       = os.environ.get('OWNER_NAME', 'Agro System')
+    JAZZCASH_NUMBER  = os.environ.get('JAZZCASH_NUMBER', '03214512624')
+    EASYPAISA_NUMBER = os.environ.get('EASYPAISA_NUMBER', '03131631965')
+    OWNER_NAME       = os.environ.get('OWNER_NAME', 'M Usman Manzoor')
